@@ -37,14 +37,14 @@ export default function Skills() {
   }, []);
 
   const SkillBar = ({ skill, animated }: { skill: { name: string; level: number }; animated: boolean }) => (
-    <div className="skill-item">
+    <div className="skill-item hover-lift">
       <div className="flex justify-between items-center mb-2">
-        <span className="font-semibold">{skill.name}</span>
+        <span className="font-semibold hover-scale transition-transform duration-200">{skill.name}</span>
         <span className="text-gradient">{skill.level}%</span>
       </div>
-      <div className="w-full bg-gray-700 rounded-full h-2">
+      <div className="w-full bg-gray-700 rounded-full h-2 overflow-hidden">
         <div
-          className="accent-gradient h-2 rounded-full skill-progress"
+          className="accent-gradient h-2 rounded-full skill-progress pulse-glow hover:shadow-lg transition-all duration-300"
           style={{
             width: animated ? `${skill.level}%` : "0%",
           }}

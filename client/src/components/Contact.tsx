@@ -91,8 +91,8 @@ export default function Contact() {
             <h3 className="text-2xl font-bold mb-8 text-gradient">Get In Touch</h3>
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
-                <div key={index} className="flex items-center gap-4 p-4 bg-[var(--portfolio-primary)] rounded-lg">
-                  <info.icon className="flex-shrink-0" size={24} style={{color: 'hsl(142, 76%, 36%)'}} />
+                <div key={index} className="flex items-center gap-4 p-4 bg-[var(--portfolio-primary)] rounded-lg hover-lift gradient-border">
+                  <info.icon className="flex-shrink-0 hover-scale" size={24} style={{color: 'hsl(142, 76%, 36%)'}} />
                   <div>
                     <h4 className="font-semibold">{info.title}</h4>
                     <p className="text-[var(--portfolio-text-secondary)]">{info.content}</p>
@@ -117,7 +117,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-all duration-300 hover:border-gray-600 focus:shadow-lg focus:shadow-green-400/20"
                     placeholder="Your Name"
                   />
                 </div>
@@ -132,7 +132,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-all duration-300 hover:border-gray-600 focus:shadow-lg focus:shadow-green-400/20"
                     placeholder="Your Email"
                   />
                 </div>
@@ -149,7 +149,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-all duration-300 hover:border-gray-600 focus:shadow-lg focus:shadow-green-400/20"
                   placeholder="Subject"
                 />
               </div>
@@ -165,7 +165,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-[var(--portfolio-primary)] border border-gray-700 rounded-lg focus:border-green-400 focus:outline-none transition-all duration-300 hover:border-gray-600 focus:shadow-lg focus:shadow-green-400/20 resize-none"
                   placeholder="Your Message"
                 />
               </div>
@@ -173,7 +173,7 @@ export default function Contact() {
               <Button
                 type="submit"
                 disabled={contactMutation.isPending}
-                className="w-full accent-gradient hover:accent-gradient-hover text-[var(--portfolio-primary)] font-medium py-3 rounded-lg transition-all duration-300"
+                className="w-full accent-gradient hover:accent-gradient-hover text-[var(--portfolio-primary)] font-medium py-3 rounded-lg transition-all duration-300 hover:scale-105 magnetic-effect border-glow pulse-glow"
               >
                 {contactMutation.isPending ? "Sending..." : "Send Message"}
               </Button>

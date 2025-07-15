@@ -2,7 +2,20 @@
 
 ## Overview
 
-This is a modern, responsive portfolio website built with React, TypeScript, and Express.js. The application showcases Brix Joshua A. Cejalbo's professional experience, skills, and educational background through a clean, dark-themed interface with green accents, smooth animations and interactive elements. Features updated work experience including GoHighLevel specialization and marketing automation expertise.
+This is a modern, responsive portfolio website built with React, TypeScript, and Express.js. The application showcases Brix Joshua A. Cejalbo's professional experience, skills, and educational background through a clean, dark-themed interface with green gradient accents, smooth animations and professional interactive elements. Features updated work experience including GoHighLevel specialization and marketing automation expertise.
+
+## Recent Changes
+
+### Interactive Features Implementation (July 15, 2025)
+- Added typing animation for Hero section with rotating titles
+- Implemented smooth hover effects (hover-lift, hover-scale, magnetic-effect)
+- Added gradient borders and pulse glow effects throughout the site
+- Created floating animations for profile image and decorative elements
+- Enhanced navigation with interactive hover states and gradient backgrounds
+- Added smooth scroll reveal animations using intersection observer
+- Implemented advanced CSS animations (float, pulseGlow, interactive cards)
+- Enhanced form inputs with focus shadows and smooth transitions
+- Added professional button interactions with scale and glow effects
 
 ## User Preferences
 

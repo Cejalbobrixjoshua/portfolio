@@ -39,7 +39,7 @@ export default function Education() {
           {education.map((edu, index) => (
             <div
               key={index}
-              className="bg-[var(--portfolio-primary)] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 fade-in-up"
+              className="bg-[var(--portfolio-primary)] p-8 rounded-xl shadow-lg hover-lift hover:shadow-xl transition-all duration-300 fade-in-up hover-scale"
             >
               <div className="mb-4" style={{color: 'hsl(142, 76%, 36%)'}}>
                 <edu.icon size={48} />

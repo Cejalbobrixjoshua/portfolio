@@ -19,20 +19,20 @@ export default function About() {
               I am a highly motivated GoHighLevel specialist and marketing automation expert seeking professional opportunities where I can leverage my funnel design expertise and technical skills to drive business growth and client success.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-gradient font-semibold mb-2">Name:</h3>
+              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg hover-lift gradient-border interactive-card magnetic-effect">
+                <h3 className="text-gradient font-semibold mb-2 text-shadow-glow">Name:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">Brix Joshua A. Cejalbo</p>
               </div>
-              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-gradient font-semibold mb-2">Email:</h3>
+              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg hover-lift gradient-border interactive-card magnetic-effect">
+                <h3 className="text-gradient font-semibold mb-2 text-shadow-glow">Email:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">cejalbo.brixjoshua@gmail.com</p>
               </div>
-              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-gradient font-semibold mb-2">Phone:</h3>
+              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg hover-lift gradient-border interactive-card magnetic-effect">
+                <h3 className="text-gradient font-semibold mb-2 text-shadow-glow">Phone:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">+639392977798</p>
               </div>
-              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-gradient font-semibold mb-2">Address:</h3>
+              <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg hover-lift gradient-border interactive-card magnetic-effect">
+                <h3 className="text-gradient font-semibold mb-2 text-shadow-glow">Address:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">#05 Grace Mansion, Felix Chavas St. Bagbaguin, Meycauayan, Bulacan, Philippines</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function About() {
             </div>
           </div>
           <div className="slide-in">
-            <div className="bg-[var(--portfolio-primary)] p-8 rounded-2xl shadow-xl">
+            <div className="bg-[var(--portfolio-primary)] p-8 rounded-2xl shadow-xl hover-lift pulse-glow">
               <h3 className="text-2xl font-bold mb-6 text-gradient">Professional Summary</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">

@@ -58,7 +58,7 @@ export default function Experience() {
             {experiences.map((exp, index) => (
               <div key={index} className="relative mb-12 fade-in-up">
                 <div className="absolute left-6 w-4 h-4 accent-gradient rounded-full border-4 border-[var(--portfolio-primary)]"></div>
-                <div className="ml-20 bg-[var(--portfolio-secondary)] p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="ml-20 bg-[var(--portfolio-secondary)] p-8 rounded-lg shadow-lg hover-lift hover:shadow-xl transition-all duration-300">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <h3 className="text-xl font-bold text-gradient">{exp.title}</h3>
                     <span className="text-[var(--portfolio-text-secondary)] text-sm">{exp.period}</span>
