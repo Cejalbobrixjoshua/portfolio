@@ -50,7 +50,7 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[var(--portfolio-primary)]/90 backdrop-blur-md border-b border-gray-800">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-[var(--portfolio-accent)]">BRIX</div>
+          <div className="text-2xl font-bold text-gradient">BRIX</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
@@ -60,8 +60,8 @@ export default function Navigation() {
                 onClick={() => scrollToSection(item.id)}
                 className={`transition-colors duration-300 ${
                   activeSection === item.id
-                    ? "text-[var(--portfolio-accent)]"
-                    : "text-[var(--portfolio-text-primary)] hover:text-[var(--portfolio-accent)]"
+                    ? "text-gradient"
+                    : "text-[var(--portfolio-text-primary)] hover:text-gradient"
                 }`}
               >
                 {item.label}
@@ -75,7 +75,7 @@ export default function Navigation() {
               variant="ghost"
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-[var(--portfolio-accent)] hover:text-white"
+              className="text-gradient hover:text-white"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </Button>
@@ -92,8 +92,8 @@ export default function Navigation() {
                   onClick={() => scrollToSection(item.id)}
                   className={`block w-full text-left transition-colors duration-300 ${
                     activeSection === item.id
-                      ? "text-[var(--portfolio-accent)]"
-                      : "text-[var(--portfolio-text-primary)] hover:text-[var(--portfolio-accent)]"
+                      ? "text-gradient"
+                      : "text-[var(--portfolio-text-primary)] hover:text-gradient"
                   }`}
                 >
                   {item.label}

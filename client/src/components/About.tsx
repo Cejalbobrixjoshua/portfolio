@@ -20,26 +20,26 @@ export default function About() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-[var(--portfolio-accent)] font-semibold mb-2">Name:</h3>
+                <h3 className="text-gradient font-semibold mb-2">Name:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">Brix Joshua A. Cejalbo</p>
               </div>
               <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-[var(--portfolio-accent)] font-semibold mb-2">Email:</h3>
+                <h3 className="text-gradient font-semibold mb-2">Email:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">cejalbo.brixjoshua@gmail.com</p>
               </div>
               <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-[var(--portfolio-accent)] font-semibold mb-2">Phone:</h3>
+                <h3 className="text-gradient font-semibold mb-2">Phone:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">+639392977798</p>
               </div>
               <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
-                <h3 className="text-[var(--portfolio-accent)] font-semibold mb-2">Address:</h3>
+                <h3 className="text-gradient font-semibold mb-2">Address:</h3>
                 <p className="text-[var(--portfolio-text-secondary)]">#05 Grace Mansion, Felix Chavas St. Bagbaguin, Meycauayan, Bulacan, Philippines</p>
               </div>
             </div>
             <div className="mt-8">
               <Button
                 onClick={() => scrollToSection("contact")}
-                className="bg-[var(--portfolio-accent)] hover:bg-[var(--portfolio-accent)]/90 text-[var(--portfolio-primary)] font-medium px-8 py-3 rounded-lg transition-colors duration-300"
+                className="accent-gradient hover:accent-gradient-hover text-[var(--portfolio-primary)] font-medium px-8 py-3 rounded-lg transition-all duration-300"
               >
                 DOWNLOAD CV
               </Button>
@@ -47,22 +47,22 @@ export default function About() {
           </div>
           <div className="slide-in">
             <div className="bg-[var(--portfolio-primary)] p-8 rounded-2xl shadow-xl">
-              <h3 className="text-2xl font-bold mb-6 text-[var(--portfolio-accent)]">Professional Summary</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gradient">Professional Summary</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
+                  <CheckCircle className="text-green-400 mt-1 flex-shrink-0" size={20} style={{color: 'hsl(142, 76%, 36%)'}} />
                   <p className="text-[var(--portfolio-text-secondary)]">GoHighLevel funnel design and automation specialist</p>
                 </div>
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
+                  <CheckCircle className="text-green-400 mt-1 flex-shrink-0" size={20} style={{color: 'hsl(142, 76%, 36%)'}} />
                   <p className="text-[var(--portfolio-text-secondary)]">Marketing automation workflow development</p>
                 </div>
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
+                  <CheckCircle className="text-green-400 mt-1 flex-shrink-0" size={20} style={{color: 'hsl(142, 76%, 36%)'}} />
                   <p className="text-[var(--portfolio-text-secondary)]">Customer acquisition system optimization</p>
                 </div>
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
+                  <CheckCircle className="text-green-400 mt-1 flex-shrink-0" size={20} style={{color: 'hsl(142, 76%, 36%)'}} />
                   <p className="text-[var(--portfolio-text-secondary)]">Technical support and team training capabilities</p>
                 </div>
               </div>

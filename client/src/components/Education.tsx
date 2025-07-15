@@ -41,11 +41,11 @@ export default function Education() {
               key={index}
               className="bg-[var(--portfolio-primary)] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 fade-in-up"
             >
-              <div className="text-[var(--portfolio-accent)] mb-4">
+              <div className="mb-4" style={{color: 'hsl(142, 76%, 36%)'}}>
                 <edu.icon size={48} />
               </div>
               <h3 className="text-xl font-bold mb-2">{edu.level}</h3>
-              <h4 className="text-[var(--portfolio-accent)] font-semibold mb-2">{edu.institution}</h4>
+              <h4 className="text-gradient font-semibold mb-2">{edu.institution}</h4>
               <p className="text-[var(--portfolio-text-secondary)] mb-2">{edu.location}</p>
               <p className="text-[var(--portfolio-text-secondary)] text-sm">{edu.period}</p>
             </div>

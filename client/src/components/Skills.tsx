@@ -40,11 +40,11 @@ export default function Skills() {
     <div className="skill-item">
       <div className="flex justify-between items-center mb-2">
         <span className="font-semibold">{skill.name}</span>
-        <span className="text-[var(--portfolio-accent)]">{skill.level}%</span>
+        <span className="text-gradient">{skill.level}%</span>
       </div>
       <div className="w-full bg-gray-700 rounded-full h-2">
         <div
-          className="bg-[var(--portfolio-accent)] h-2 rounded-full skill-progress"
+          className="accent-gradient h-2 rounded-full skill-progress"
           style={{
             width: animated ? `${skill.level}%` : "0%",
           }}
@@ -66,7 +66,7 @@ export default function Skills() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Technical Skills */}
           <div className="fade-in-up">
-            <h3 className="text-2xl font-bold mb-8 text-[var(--portfolio-accent)]">Technical Skills</h3>
+            <h3 className="text-2xl font-bold mb-8 text-gradient">Technical Skills</h3>
             <div className="space-y-6">
               {technicalSkills.map((skill, index) => (
                 <SkillBar key={index} skill={skill} animated={animateSkills} />
@@ -76,7 +76,7 @@ export default function Skills() {
 
           {/* Professional Skills */}
           <div className="fade-in-up">
-            <h3 className="text-2xl font-bold mb-8 text-[var(--portfolio-accent)]">Professional Skills</h3>
+            <h3 className="text-2xl font-bold mb-8 text-gradient">Professional Skills</h3>
             <div className="space-y-6">
               {professionalSkills.map((skill, index) => (
                 <SkillBar key={index} skill={skill} animated={animateSkills} />
