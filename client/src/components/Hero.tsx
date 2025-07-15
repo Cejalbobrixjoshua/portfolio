@@ -16,8 +16,7 @@ export default function Hero() {
           <div className="lg:w-1/2 mb-12 lg:mb-0 fade-in-up">
             <div className="text-[var(--portfolio-text-secondary)] mb-4 text-lg">HELLO!</div>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-              I'm <span className="text-[var(--portfolio-accent)]">Brix Joshua</span><br />
-              <span className="text-[var(--portfolio-accent)]">Cejalbo</span>
+              I'm <span className="text-[var(--portfolio-accent)]">Brix Joshua Cejalbo</span>
             </h1>
             <h2 className="text-2xl lg:text-3xl text-[var(--portfolio-text-secondary)] mb-8">
               GoHighLevel Specialist & Marketing Automation Expert
@@ -38,7 +37,7 @@ export default function Hero() {
               </Button>
             </div>
           </div>
-          <div className="lg:w-1/2 flex justify-center lg:justify-end slide-in">
+          <div className="lg:w-1/2 flex justify-center slide-in">
             <div className="relative">
               <div className="w-80 h-80 rounded-full border-4 border-[var(--portfolio-accent)] overflow-hidden shadow-2xl">
                 <img

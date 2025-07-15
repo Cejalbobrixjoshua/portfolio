@@ -66,12 +66,12 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      content: "+63 123 456 7890",
+      content: "+639392977798",
     },
     {
       icon: MapPin,
       title: "Address",
-      content: "3L Osias Mansion, Felix Clisena St. Brgy. Poblacion, Maycauayan City, Bulacan",
+      content: "#05 Grace Mansion, Felix Chavas St. Bagbaguin, Meycauayan, Bulacan, Philippines",
     },
   ];
 

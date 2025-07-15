@@ -29,11 +29,11 @@ export default function About() {
               </div>
               <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
                 <h3 className="text-[var(--portfolio-accent)] font-semibold mb-2">Phone:</h3>
-                <p className="text-[var(--portfolio-text-secondary)]">+63 123 456 7890</p>
+                <p className="text-[var(--portfolio-text-secondary)]">+639392977798</p>
               </div>
               <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
                 <h3 className="text-[var(--portfolio-accent)] font-semibold mb-2">Address:</h3>
-                <p className="text-[var(--portfolio-text-secondary)]">Maycauayan City, Bulacan</p>
+                <p className="text-[var(--portfolio-text-secondary)]">#05 Grace Mansion, Felix Chavas St. Bagbaguin, Meycauayan, Bulacan, Philippines</p>
               </div>
             </div>
             <div className="mt-8">
