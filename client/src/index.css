@@ -3,31 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --background: hsl(240, 10%, 3.9%);
+  --background: hsl(225, 15%, 8%);
   --foreground: hsl(0, 0%, 98%);
-  --muted: hsl(240, 3.7%, 15.9%);
+  --muted: hsl(225, 10%, 18%);
   --muted-foreground: hsl(240, 5%, 64.9%);
-  --popover: hsl(240, 10%, 3.9%);
+  --popover: hsl(225, 15%, 8%);
   --popover-foreground: hsl(0, 0%, 98%);
-  --card: hsl(240, 10%, 3.9%);
+  --card: hsl(225, 15%, 8%);
   --card-foreground: hsl(0, 0%, 98%);
-  --border: hsl(240, 3.7%, 15.9%);
-  --input: hsl(240, 3.7%, 15.9%);
-  --primary: hsl(38, 92%, 50%);
-  --primary-foreground: hsl(240, 10%, 3.9%);
-  --secondary: hsl(240, 3.7%, 15.9%);
+  --border: hsl(225, 10%, 18%);
+  --input: hsl(225, 10%, 18%);
+  --primary: hsl(142, 76%, 36%);
+  --primary-foreground: hsl(225, 15%, 8%);
+  --secondary: hsl(225, 10%, 18%);
   --secondary-foreground: hsl(0, 0%, 98%);
-  --accent: hsl(38, 92%, 50%);
-  --accent-foreground: hsl(240, 10%, 3.9%);
+  --accent: hsl(142, 76%, 36%);
+  --accent-foreground: hsl(225, 15%, 8%);
   --destructive: hsl(0, 62.8%, 30.6%);
   --destructive-foreground: hsl(0, 0%, 98%);
   --ring: hsl(240, 4.9%, 83.9%);
   --radius: 0.5rem;
 
   /* Custom portfolio colors */
-  --portfolio-primary: hsl(240, 10%, 3.9%);
-  --portfolio-secondary: hsl(240, 3.7%, 15.9%);
-  --portfolio-accent: hsl(38, 92%, 50%);
+  --portfolio-primary: hsl(225, 15%, 8%);
+  --portfolio-secondary: hsl(225, 10%, 18%);
+  --portfolio-accent: hsl(142, 76%, 36%);
   --portfolio-text-primary: hsl(0, 0%, 98%);
   --portfolio-text-secondary: hsl(240, 5%, 64.9%);
 }
@@ -54,7 +54,7 @@
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, var(--portfolio-accent) 0%, hsl(45, 90%, 60%) 100%);
+    background: linear-gradient(135deg, var(--portfolio-accent) 0%, hsl(142, 60%, 55%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

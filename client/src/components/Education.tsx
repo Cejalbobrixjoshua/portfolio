@@ -4,23 +4,23 @@ export default function Education() {
   const education = [
     {
       level: "Tertiary Education",
-      institution: "Bulacan State University",
-      location: "City of Malolos, Bulacan",
-      period: "2014 - 2018",
+      institution: "Bestlink College Of The Philippines (BCP)",
+      location: "#1071 Barangay Kaligayahan, Quirino Hi-way, Novaliches, Quezon City",
+      period: "2021 - 2025",
       icon: GraduationCap,
     },
     {
       level: "Secondary Education",
-      institution: "Sto. Cristo Integrated National High School",
-      location: "Maycauayan City, Bulacan",
-      period: "2013 - 2014",
+      institution: "Maycauayan National Highschool",
+      location: "Barangay Camalig, El Camino St. Maycauayan City, Bulacan",
+      period: "2014 - 2021",
       icon: School,
     },
     {
       level: "Primary Education",
       institution: "Pantoc Elementary School",
-      location: "Maycauayan City, Bulacan",
-      period: "2007 - 2013",
+      location: "Barangay Pantoc, Centro, Maycauayan City, Bulacan",
+      period: "2008 - 2014",
       icon: BookOpen,
     },
   ];

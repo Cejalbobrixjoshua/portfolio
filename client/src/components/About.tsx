@@ -16,7 +16,7 @@ export default function About() {
           <div className="fade-in-up">
             <h2 className="text-4xl lg:text-5xl font-bold mb-8">About Me</h2>
             <p className="text-[var(--portfolio-text-secondary)] text-lg mb-8 leading-relaxed">
-              I am a highly motivated and dedicated individual seeking a professional position in a reputable organization where I can leverage my technical expertise and develop a strong and rewarding career.
+              I am a highly motivated GoHighLevel specialist and marketing automation expert seeking professional opportunities where I can leverage my funnel design expertise and technical skills to drive business growth and client success.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="bg-[var(--portfolio-primary)] p-6 rounded-lg">
@@ -51,19 +51,19 @@ export default function About() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
-                  <p className="text-[var(--portfolio-text-secondary)]">Hardware repair and maintenance specialist</p>
+                  <p className="text-[var(--portfolio-text-secondary)]">GoHighLevel funnel design and automation specialist</p>
                 </div>
                 <div className="flex items-start gap-4">
                   <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
-                  <p className="text-[var(--portfolio-text-secondary)]">Document management and analysis expert</p>
+                  <p className="text-[var(--portfolio-text-secondary)]">Marketing automation workflow development</p>
                 </div>
                 <div className="flex items-start gap-4">
                   <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
-                  <p className="text-[var(--portfolio-text-secondary)]">Network analyst with strong problem-solving skills</p>
+                  <p className="text-[var(--portfolio-text-secondary)]">Customer acquisition system optimization</p>
                 </div>
                 <div className="flex items-start gap-4">
                   <CheckCircle className="text-[var(--portfolio-accent)] mt-1 flex-shrink-0" size={20} />
-                  <p className="text-[var(--portfolio-text-secondary)]">Team leadership and graphic design capabilities</p>
+                  <p className="text-[var(--portfolio-text-secondary)]">Technical support and team training capabilities</p>
                 </div>
               </div>
             </div>

@@ -4,15 +4,18 @@ export default function Skills() {
   const [animateSkills, setAnimateSkills] = useState(false);
 
   const technicalSkills = [
-    { name: "Hardware Repair", level: 90 },
-    { name: "Document Management", level: 85 },
-    { name: "Network Analysis", level: 80 },
+    { name: "GoHighLevel", level: 95 },
+    { name: "Funnel Design", level: 90 },
+    { name: "Marketing Automation", level: 88 },
+    { name: "Hardware Repair", level: 85 },
+    { name: "Document Management", level: 80 },
   ];
 
   const professionalSkills = [
+    { name: "Problem Solving", level: 92 },
     { name: "Team Leadership", level: 85 },
-    { name: "Graphic Design", level: 75 },
-    { name: "Problem Solving", level: 90 },
+    { name: "Graphic Design", level: 78 },
+    { name: "Customer Service", level: 88 },
   ];
 
   useEffect(() => {

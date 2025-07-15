@@ -2,11 +2,12 @@
 
 ## Overview
 
-This is a modern, responsive portfolio website built with React, TypeScript, and Express.js. The application showcases Brix Joshua A. Cejalbo's professional experience, skills, and educational background through a clean, dark-themed interface with smooth animations and interactive elements.
+This is a modern, responsive portfolio website built with React, TypeScript, and Express.js. The application showcases Brix Joshua A. Cejalbo's professional experience, skills, and educational background through a clean, dark-themed interface with green accents, smooth animations and interactive elements. Features updated work experience including GoHighLevel specialization and marketing automation expertise.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Color scheme: Green accent colors instead of gold/yellow, with dark gradient backgrounds incorporating green tones.
 
 ## System Architecture
 

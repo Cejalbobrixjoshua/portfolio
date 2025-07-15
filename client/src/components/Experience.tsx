@@ -3,25 +3,39 @@ import { ChevronRight } from "lucide-react";
 export default function Experience() {
   const experiences = [
     {
-      title: "Document Management & Network Analyst",
-      company: "Maycauayan City Hall, PESO Office",
-      location: "Brgy. Saluysoy, Maycauayan, Bulacan",
-      period: "June 2018 - Present",
+      title: "GoHighLevel Specialist",
+      company: "WealthSpring Company",
+      location: "Remote",
+      period: "June 9, 2025 - Present",
       responsibilities: [
-        "Managed digital document systems and databases",
-        "Analyzed network infrastructure and performance",
-        "Provided technical support to office staff",
+        "Developed and optimized sales funnels using GoHighLevel platform",
+        "Implemented marketing automation workflows",
+        "Designed custom funnel systems for client acquisition",
+        "Provided technical support and training to team members",
       ],
     },
     {
-      title: "Hardware Repair & Helper",
-      company: "Sunday Sudz Laundry etc.",
-      location: "Brgy. Perez Blvd., Maycauayan, Bulacan",
-      period: "July 2003 - May 2018",
+      title: "SPES (Encoder)",
+      company: "Maycauayan City Hall, PESO Office",
+      location: "Brgy. Saluysoy, Maycauayan, Bulacan",
+      period: "July - September 2023, April - June 2024",
       responsibilities: [
-        "Diagnosed and repaired various electronic equipment",
-        "Maintained laundry machinery and systems",
-        "Provided customer service and technical support",
+        "Encoded and managed SPES program data",
+        "Maintained digital document systems",
+        "Processed student employment applications",
+        "Provided administrative support to PESO Office",
+      ],
+    },
+    {
+      title: "Machine Operator & Helper (Part Time)",
+      company: "Sunway Steam Laundry Inc.",
+      location: "Brgy. Perez, Bato, Maycauayan, Bulacan",
+      period: "June - July 2018",
+      responsibilities: [
+        "Operated industrial laundry equipment",
+        "Maintained and cleaned machinery systems",
+        "Assisted with daily operations and quality control",
+        "Provided customer service and support",
       ],
     },
   ];

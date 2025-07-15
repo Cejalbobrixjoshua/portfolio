@@ -20,7 +20,7 @@ export default function Hero() {
               <span className="text-[var(--portfolio-accent)]">Cejalbo</span>
             </h1>
             <h2 className="text-2xl lg:text-3xl text-[var(--portfolio-text-secondary)] mb-8">
-              IT Professional & Hardware Specialist
+              GoHighLevel Specialist & Marketing Automation Expert
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
