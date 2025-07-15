@@ -1,0 +1,57 @@
+import { GraduationCap, School, BookOpen } from "lucide-react";
+
+export default function Education() {
+  const education = [
+    {
+      level: "Tertiary Education",
+      institution: "Bulacan State University",
+      location: "City of Malolos, Bulacan",
+      period: "2014 - 2018",
+      icon: GraduationCap,
+    },
+    {
+      level: "Secondary Education",
+      institution: "Sto. Cristo Integrated National High School",
+      location: "Maycauayan City, Bulacan",
+      period: "2013 - 2014",
+      icon: School,
+    },
+    {
+      level: "Primary Education",
+      institution: "Pantoc Elementary School",
+      location: "Maycauayan City, Bulacan",
+      period: "2007 - 2013",
+      icon: BookOpen,
+    },
+  ];
+
+  return (
+    <section id="education" className="py-20 bg-[var(--portfolio-secondary)]">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4">Academic History</h2>
+          <p className="text-[var(--portfolio-text-secondary)] text-lg">
+            My educational journey and achievements
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {education.map((edu, index) => (
+            <div
+              key={index}
+              className="bg-[var(--portfolio-primary)] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 fade-in-up"
+            >
+              <div className="text-[var(--portfolio-accent)] mb-4">
+                <edu.icon size={48} />
+              </div>
+              <h3 className="text-xl font-bold mb-2">{edu.level}</h3>
+              <h4 className="text-[var(--portfolio-accent)] font-semibold mb-2">{edu.institution}</h4>
+              <p className="text-[var(--portfolio-text-secondary)] mb-2">{edu.location}</p>
+              <p className="text-[var(--portfolio-text-secondary)] text-sm">{edu.period}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
